@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&family=Work+Sans&display=swap');
+
+/* TAGS------------------------------------------------------------------------------- */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #003655;
+}
+
+h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:  #003655;
+}
+
+span{
+  color: 555555;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0em;
+  text-align: justify;
+  color:   #555555;
+}
+
+h6{
+  color: #333;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 190%;  
+}
+
+
+#button{
+  background-color: #036DA4;
+}
+
+
+
+  /* .navbar.fixed-top {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;  
+  }
+
+  body {
+      padding-top: 5%;  
+  }
+
+  @media (max-width: 768px) {
+    body {
+        padding-top: 15%;
+    }
+} */
+
+
+/*  ENDING TAGS   -------------------------------------------------------------------- */
+
+
+/*  INDEX PAGE    --------------------------------------------------------------------- */
+
+.jcom_logo{
+  width: 247px;
+  height: 62.561px;
+  flex-shrink: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 54px;
+}
+
+#navlink2 {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+}
+
+.navbarsearchimage img{
+  background-color: #00304D;
+  height: 90%;
+  width: 100% ;
+  border-radius: 50%;
+}
+
+.navbarphonenumber{
+  color: #171010;
+  font-family: 'Inter', sans-serif;
+  font-size: 19.221px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* FULLFILING LOVE */
+
+.fulfilinglove{
+  background-color: #DDECFF;
+  height: 100%;
+  width: 100%;
+}
+
+.fulfilinglove h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  letter-spacing: 1px;
+  text-align: left;
+  color:  #003655;
+}
+
+.fulfilinglove h6{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #222222;
+}
+
+
+#fulfilinglovenavbarpart{
+  position: relative;
+  background-color: #00527E;
+  height: auto;
+  width: auto;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 15%;
+  margin-right: 18%;
+  margin-top: -2%;
+  border-radius: 5px;
+   
+}
+
+#fulfilinglovenavbarpart a {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#fulfilinglovenavbarpartsearch{
+  width: 47px;
+  height: 46px;
+  background-color: #00304D;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: -3%;
+
+}
+
+.whatsapp-link {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/* ENDING  FULLFILING LOVE */
+
+/*  ARE YOU LOOKING  */
+
+.areyoulooking h1{
+  color:   #024262;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.8%;  
+}
+
+.areyoulooking h6{
+  color: #333;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 190%;  
+}
+
+.areyoulooking{
+  margin-bottom: 6%;
+}
+
+/*  ENDING ARE YOU LOOKING  */
+
+
+/* OUR SERVICES */
+
+.service-div{
+  padding: 30px 25px;
+  height: 100%;
+}
+
+.service-div .card-body{
+  height: 450px;
+  padding: 40px;
+}
+
+.service-div .card-title{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.ourservicesfirstcard{
+  background-color: #F1DAF7;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%; 
+}
+
+.ourservicessecondcard{
+  background-color: #E7F2FF;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%;  
+}
+
+.ourservicesthirdcard{
+  background-color: #FAF5E4;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141%; 
+}
+
+.ourservices{
+  margin-bottom: 5%;
+}
+
+/* VAGINAL REJUVENATION   */
+
+.Vaginalrejuvenation{
+  background-color:  #E7F2FF;
+  margin-bottom: 5%;
+}
+
+.Vaginalrejuvenation li a{
+  color:  #E7F2FF ;
+  text-decoration: none;
+}
+
+
+/* OUR DOCTORS */
+
+.ourdoctors h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #003655;
+}
+
+/*  FOUNDERS */
+
+.founders{
+  background-color: #F2F2F2;
+  height: auto;
+  width: auto;
+}
+ 
+.founders h1{
+  color: #00061A;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.founders h6{
+  color: #00061A;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*  ENDING  INDEX PAGE   -------------------------------------------------------------- */
+
+
+/*  ABOUT PAGE    -------------------------------------------------------------- */
+ 
+ 
+
+.aboutus {
+  background-image: url("img/best_couples_clinic_Aruna_couples_clinic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  .aboutus {
+    height: 300px; /* Adjust the height for tablets */
+    background-size: cover; /* You can use 'contain' if needed for tablets */
+  }
+}
+
+/* Adjust for mobile devices */  
+ @media (max-width: 480px) {
+  .aboutus {
+    height: 200px;  
+    background-size: cover;  
+  }
+}
+
+.aboutus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(173, 216, 230, 0.7); 
+}
+
+.aboutuscontent{
+   position: relative;
+   padding-top: 16%;
+}
+ 
+.ourstory {
+  position: relative;
+  margin-top: -2%;
+  margin-left: 12%;
+  margin-right: 15%;
+  box-shadow: 20px 20px 20px 15px rgba(32, 32, 32, 0.1);
+  background: #FFF; /* Add a background color */
+  border-radius: 10px; /* Add border-radius for a rounded appearance */
+  padding: 20px; /* Add padding for content spacing */
+}
+
+ 
+
+ 
+
+
+/*  ENDING  ABOUT PAGE   ------------------------------------------------------- */
+
+
+
+/*   CONTACT  PAGE   -------------------------------------------------------------- */
+
+ 
+.contactus {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Adjust for tablets */
+@media (max-width: 768px) {
+  .contactus {
+    height: 300px; /* Adjust the height for tablets */
+  }
+}
+
+/* Adjust for mobile devices */  
+@media (max-width: 480px) {
+  .contactus {
+    height: 200px;
+  }
+}
+
+ 
+.contactuscontent{
+   position: relative;
+   padding-top: 16%;
+}
+
+.getintouch{
+  position: relative;
+  margin-top: -4%;
+  margin-left: 12%;
+  margin-right: 15%;
+  box-shadow: 40px 40px 40px 15px rgba(32, 32, 32, 0.1);
+  background: #FFF;  
+  border-radius: 10px;  
+  padding: 20px;  
+}
+
+.getintouch input {
+  width: 100%;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #F3F3F3;
+  color: #444;
+  border: 5px  black ;
+  margin-bottom: 4%
+}
+
+#contactbutton{
+  background-color: #036DA4;
+  /* color: #FFF; */
+  color: #FEFEFE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-left: 15%;
+  margin-right: 5%;
+
+}
+
+.aboutbtn{
+  color: #FEFEFE;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+/*  ENDING CONTACT PAGE  --------------------------------------------------------- */
+ 
+
+
+/*   appointmentPAGE      -------------------------------------------------------------- */
+
+.mainsection{
+  color: #444;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+ 
+#appointmentfrom input {
+  width: 100%;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #F3F3F3;
+  color: #444;
+  border: 5px  black ;
+  margin-bottom: 4%
+}
+
+#appointmentfromselect{
+  width: 100%;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background:  #F3F3F3;
+  color: #444;
+  border: 5px  black ;
+  margin-bottom: 4%;
+}
+
+#appointmentsubmitbtn{
+  background-color:#024262;
+  color: #FFF;
+  font-size:  15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+ 
+/*  ENDING  appointmentPAGE  ---------------------------------------------------  */
+
+/*  FOOTER  ------------------------------------------------------------- */
+
+#footer{
+  background-color: #00527E;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer h6{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+#footer h6 a{
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;  
+}
+
+.footerfirstblock{
+  padding-top: 9%;
+}
+
+.footersecondblock{
+  padding-top: 9%;
+}
+
+.footerthirdblock{
+  padding-top: 9%;
+}
+
+/*  ENDING  FOOTER  ------------------------------------------------------------- */
+
+.fulfilingloveiconbar{
+  position: fixed;
+  z-index: 9999;
+}
+
+
+/* Style for the WhatsApp link */
+.whatsapp-link {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Style for the  scroll down  button */
+
+.circle-icon-container {
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px; /* Add some padding for spacing */
+  }
+  .circle-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color:#024262;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+ 
+  }
+
+  .circle-icon i {
+	font-size: 24px; /* Adjust the font size as needed */
+  }
+
+
+  .circle-icon-container .circle-icon a:hover{
+	/* color:aqua; */
+  color: #25d366;
+	text-decoration: none;
+  }
+
+  .slant-shadow{
+    box-shadow: 6px -2px 8px 0px rgb(0 0 0 / 21%);
+    transform: skewX(339deg);
+    height: 80px;
+    color: #fff;
+  }
+ 
+  .slant1-shadow{
+    box-shadow: 6px -2px 8px 0px rgb(0 0 0 / 21%);
+    transform: skewX(339deg);
+    height: 5px;
+    color: #fff;
+  }
